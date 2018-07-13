@@ -11,7 +11,7 @@ class Song
     lucifer.artist<< "Jay-Z"
    
     lucifer.genre<< "rap"
-    @@count = 0
+    @@count == 0
     @@count += 1
   end
   attr_accessor :name, :artist, :genre
