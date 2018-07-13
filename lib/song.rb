@@ -38,7 +38,7 @@ class Song
     Song.class_variable_get = @@count = 3
     end
 
-    Song.class_variable_get(:@@artists)).to match(["Jay-Z", "Jay-Z", "Brittany Spears"])
+    Song.class_variable_get(:@@artists)
     end
 
     it "has a class variable, @@genres, that contains all of the genres of existing songs" do
