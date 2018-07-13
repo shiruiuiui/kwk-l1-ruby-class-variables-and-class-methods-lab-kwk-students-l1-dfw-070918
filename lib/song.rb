@@ -3,14 +3,19 @@ class Song
   def initialize(name, artist, genre)
     
     song = {}
-    
-    lucifer = Song.new("Lucifer", "Jay-Z", "rap")
+    lucifer = song.new()
    
-    lucifer.name<< "Lucifer" 
    
-    lucifer.artist<< "Jay-Z"
    
-    lucifer.genre<< "rap"
+   
+   
+   
+   
+   
+   
+   
+   
+   
     @@count = 0
     @@count += 1
   end
