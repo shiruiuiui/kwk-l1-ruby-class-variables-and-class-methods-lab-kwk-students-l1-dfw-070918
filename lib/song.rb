@@ -52,22 +52,16 @@ class Song
     Song.artists
   end
 
-  describe ".genres" do
-    it "is a class method that returns a unique array of genres of existing songs" do
-      expect(Song.genres).to match(["rap", "pop"])
-    end
+  def genres
+    Song.genres
   end
 
-  describe ".genre_count" do
-    it "is a class method that returns a hash of genres and the number of songs that have those genres" do
-      expect(Song.genre_count).to eq({"pop" => 1, "rap" => 2})
-    end
+  def genre_count
+    Song.genre_count
   end
 
-  describe ".artist_count" do
-    it "is a class method that returns a hash of artists and the number of songs that have those artists" do
-      expect(Song.artist_count).to eq({"Brittany Spears" => 1, "Jay-Z" => 2})
-    end
-  end
+  def artist_count
+  Song.artist_count
+end
 end
 
