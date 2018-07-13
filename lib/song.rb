@@ -2,9 +2,7 @@ class Song
   
   def initialize(name, artist, genre)
     
-     = []
-    
-    
+    song = {}
     
     lucifer = Song.new("Lucifer", "Jay-Z", "rap")
    
