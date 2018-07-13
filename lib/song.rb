@@ -43,11 +43,9 @@ class Song
     Song.class_variable_get(:@@genres)
   
 
-  describe ".count" do
-    it "is a class method that returns that number of songs created" do
+  def count
       Song.count = 3
     end
-  end
 
 
   describe ".artists" do
