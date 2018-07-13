@@ -49,7 +49,7 @@ class Song
 
   describe ".count" do
     it "is a class method that returns that number of songs created" do
-      expect(Song.count).to eq(3)
+      Song.count = 3
     end
   end
 
