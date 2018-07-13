@@ -35,7 +35,7 @@ class Song
 
   def class_variable
     class_variable = @@count
-    Song.class_variable_get(:@@count)=3
+    Song.class_variable_get = @@count = 3
     end
 
     it "has a class variable, @@artists, that contains all of the artists of existing songs" do
