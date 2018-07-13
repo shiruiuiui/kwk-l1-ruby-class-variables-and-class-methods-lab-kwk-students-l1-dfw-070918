@@ -2,6 +2,10 @@ class Song
   
   def initialize(name, artist, genre)
     
+    
+    
+    
+    
     lucifer = Song.new("Lucifer", "Jay-Z", "rap")
    
     lucifer.name<< "Lucifer" 
